@@ -1,0 +1,53 @@
+
+// Background
+$bg-body: #120116
+$bg-container: #1a011f
+$bg-nav: #23022b
+$bg-selection: #3b0547
+$bg-code: #272525
+
+// Foreground
+$fg-body: #eeeeee
+$fg-footer: #dddddd
+$fg-heading: #cccccc
+$fg-link: #aaaaaa
+$fg-link-hover: #999999
+$fg-accent: #3399ff // blue accent color
+$fg-bullet: #bbbbbb
+$fg-caption: #dddddd
+$fg-caption-icon: #cccccc
+$fg-code: #66b2ff
+
+// Cursor
+$cursor: url('/assets/cursor.png'), auto
+$cursor-hover: url('/assets/cursor-hover.png'), auto
+
+// Gradients
+$gradient-fallback: #3399ff
+$gradient: linear-gradient(90deg, #3399ff 0%, #66b2ff 50%, #99ccff 100%)
+
+// Typography
+// $font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+$font-body: 'Clash Grotesk', sans-serif
+$font-heading: 'Clash Display', sans-serif
+$font-monospace: monospace
+$font-weight-strong: 700
+
+// Layout
+$width-main: 70vw
+$width-nav: 200px
+
+// Radius
+$window-radius: 10px
+
+// Mixins
+@mixin desktop
+  @media (min-width: calc(#{$width-main} + #{$width-nav}))
+    @content
+
+*, *::after, *::before
+  box-sizing: border-box
+
+::selection
+  background: $bg-selection
+  color: white

@@ -1,0 +1,25 @@
+.container .container-scroll > header .logo
+  display: flex
+  flex-flow: column nowrap
+  align-items: center
+
+  @include desktop
+    flex-flow: row nowrap
+
+  a
+    font-weight: $font-weight-strong
+    color: $fg-body
+    padding: 0 0.35em
+    font-size: 1.5em
+
+    &::before,
+    &::after
+      content: none
+
+  img
+    border-radius: 50%
+    margin-bottom: .5em
+
+    @include desktop
+      margin-right: .5em
+      margin-bottom: 0

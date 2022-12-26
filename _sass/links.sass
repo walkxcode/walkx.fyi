@@ -1,0 +1,46 @@
+a
+  text-decoration: none
+  color: $fg-link
+  transition: color .2s ease-in-out
+  position: relative
+
+  &[href^="http://"]:not([href^="http://walkx.fyi"]):not(.noext)::after,
+  &[href^="https://"]:not([href^="https://walkx.fyi"]):not(.noext)::after,
+  &[href^="//"]:not([href^="//walkx.fyi"]):not(.noext)::after
+    content: " ↗"
+    position: relative
+    left: 0.125em
+    padding-right: 0.25em
+    bottom: 0.2em
+    font-size: 0.75em
+    font-weight: $font-weight-strong
+    color: $fg-accent
+
+  &::before
+    content: ''
+    position: absolute
+    width: 100%
+    transform: scaleX(0)
+    height: 1px
+    left: 0
+    bottom: -2px
+    background-color: $gradient-fallback
+    background-image: $gradient
+    transform-origin: bottom right
+    transition: transform 0.2s ease-out
+
+  &:hover::before,
+  &:focus::before
+    transform: scaleX(1)
+    transform-origin: bottom left
+
+  &:hover
+    cursor: $cursor-hover
+    color: $fg-link-hover
+
+  &:focus
+    outline: none
+    color: $fg-link-hover
+
+i.emoji + a
+  margin-left: .2em

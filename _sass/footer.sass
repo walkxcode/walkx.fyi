@@ -1,0 +1,21 @@
+.container .container-scroll > footer
+  display: flex
+  flex-flow: row wrap
+  align-items: center
+  column-gap: .35em
+  margin-top: 1.25rem
+  color: $fg-footer
+  font-size: 10pt
+  padding-bottom: .25rem
+  font-style: italic
+
+  .divider
+    color: $fg-bullet
+  a
+    color: $fg-accent
+
+  .blink
+    animation: blink-animation .9s infinite
+    @keyframes blink-animation
+      to
+        opacity: 0

@@ -1,0 +1,18 @@
+.gallery
+  line-height: 0
+  column-count: 3
+  column-gap: 1em
+
+  img
+    height: auto
+    max-width: 100%
+    transition: transform 0.2s
+
+  .gallery-wrapper
+    overflow: hidden
+    border-radius: 1em
+    margin-bottom: 1em
+
+    > img
+      &:hover
+        transform: scale(1.1)

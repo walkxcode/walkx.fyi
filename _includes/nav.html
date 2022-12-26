@@ -1,0 +1,48 @@
+{% if page.url != "/" %}
+<p>
+  <a class="accent" href="/">← Back to home</a>
+</p>
+{% endif %} {% if page.url == "/" %}
+<p>Welcome.</p>
+{% endif %}
+
+<p><i class="emoji" aria-hidden="true">📜</i> Pages</p>
+<ul>
+  {% for page in site.pages %}{% if page.menu == "pages" %}
+  <li>
+    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i
+    ><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+  </li>
+  {% endif %}{% endfor %}
+</ul>
+<p><i class="emoji" aria-hidden="true">💭</i> Thoughts</p>
+<ul>
+  {% for page in site.pages %}{% if page.menu == "thoughts" %}
+  <li>
+    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i
+    ><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+  </li>
+  {% endif %}{% endfor %}
+</ul>
+<p><i class="emoji" aria-hidden="true">🍱</i> Collections</p>
+<ul>
+  {% for page in site.pages %}{% if page.menu == "collections" %}
+  <li>
+    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i
+    ><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+  </li>
+  {% endif %}{% endfor %}
+</ul>
+<p><i class="emoji" aria-hidden="true">💾</i> Meta</p>
+<ul>
+  {% for page in site.pages %}{% if page.menu == "meta" %}
+  <li>
+    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i
+    ><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+  </li>
+  {% endif %}{% endfor %}
+</ul>
