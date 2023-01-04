@@ -19,16 +19,16 @@ Below you can find the webrings I'm in!
 
 ---
 
-Yesterweb: [Previous](https://webring.yesterweb.org/noJS/index.php?d=prev&url=https://walkx.org) — [Random](https://webring.yesterweb.org/noJS/index.php?d=rand&url=https:/walkx.org) — [Next](https://webring.yesterweb.org/noJS/index.php?d=next&url=https://walkx.org)
+Yesterweb: [Previous](https://webring.yesterweb.org/noJS/index.php?d=prev&url=https://walkx.fyi) — [Random](https://webring.yesterweb.org/noJS/index.php?d=rand&url=https:/walkx.fyi) — [Next](https://webring.yesterweb.org/noJS/index.php?d=next&url=https://walkx.fyi)
 
-Hotline: [Previous](https://hotlinewebring.club/walkxorg/previous) — [Next](https://hotlinewebring.club/walkxorg/next)
+Hotline: [Previous](https://hotlinewebring.club/walkxfyi/previous) — [Next](https://hotlinewebring.club/walkxfyi/next)
 
-Retronout: [Previous](https://webring.dinhe.net/prev/walkx.org) — [Next](https://webring.dinhe.net/next/walkx.org)
+Retronout: [Previous](https://webring.dinhe.net/prev/walkx.fyi) — [Next](https://webring.dinhe.net/next/walkx.fyi)
 
 <!-- xandra.cc/safonts -->
 <script src="https://xandra.cc/safonts/webring.js"></script>
 
-<ring-900 site="https://walkx.org/"></ring-900>
+<ring-900 site="https://walkx.fyi/"></ring-900>
 <br>
 
 <!-- vukky -->
