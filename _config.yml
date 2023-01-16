@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My own small piece of the internet, my website. Here you can find some of my projects, and some of my thoughts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://walkx.fyi" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: "/thoughts/:year/:month/:day"
+permalink: "/articles/:year/:month/:day"
 markdown: WalkxDown
 include:
   - _pages

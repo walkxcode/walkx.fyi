@@ -6,13 +6,12 @@ layout: default
   <header>
     <nav class="backlinks">
       <ul>
-        <li><a href="{% link _pages/thoughts.md %}">← All Thoughts</a></li>
+        <li><a href="{% link _pages/articles.md %}">← All Articles</a></li>
       </ul>
     </nav>
-    <h1 class="thought--title">
-      {{ page.title }} {% if page.emoji %}<i class="emoji" aria-hidden="true"
-        >{{ page.emoji }}</i
-      >{% endif %}
+    <h1 class="article--title">
+      {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i
+      >{% endif %} {{ page.title }}
     </h1>
   </header>
 

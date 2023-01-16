@@ -1,5 +1,5 @@
 ---
-layout: thoughts
+layout: articles
 title: "The VPN Search"
 date: 2021-11-30
 emoji: 🌐

@@ -16,9 +16,9 @@
   </li>
   {% endif %}{% endfor %}
 </ul>
-<p><i class="emoji" aria-hidden="true">💭</i> Thoughts</p>
+<p><i class="emoji" aria-hidden="true">💭</i> Articles</p>
 <ul>
-  {% for page in site.pages %}{% if page.menu == "thoughts" %}
+  {% for page in site.pages %}{% if page.menu == "articles" %}
   <li>
     {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i
     ><!--

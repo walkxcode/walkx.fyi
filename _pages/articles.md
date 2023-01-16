@@ -1,9 +1,9 @@
 ---
 layout: page
-title: All Thoughts
-permalink: /all-thoughts/
+title: All Articles
+permalink: /all-articles/
 emoji: 📄
-menu: thoughts
+menu: articles
 ---
 
 <ul markdown="0">
