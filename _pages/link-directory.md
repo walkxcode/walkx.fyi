@@ -15,7 +15,7 @@ Also checkout the <a href="{% link _pages/webrings.md %}">{{ webrings_page.emoji
 
 ## Socials
 
-- [@Instagram](https://www.instagram.com/Walkx_/)
+- [@Instagram](https://www.instagram.com/walkxfyi/)
 - [@Twitter](https://twitter.com/@WalkxTweet)
 - [@GitHub](https://github.com/walkxcode)
 - [@Discord](https://discord.com/users/949277452184727573)
