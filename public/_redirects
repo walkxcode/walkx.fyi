@@ -1,0 +1,10 @@
+# Social Links
+/github https://github.com/walkxcode
+/gh https://github.com/walkxcode
+/twitter https://twitter.com/walkxtweet
+/instagram https://www.instagram.com/walkxfyi
+/blog https://library.walkx.fyi
+/library https://library.walkx.fyi
+
+# Github Repo Jump
+/gh/* https://github.com/walkxcode/:splat
